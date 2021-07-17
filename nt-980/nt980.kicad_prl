@@ -1,7 +1,8 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": false,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -17,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -33,7 +34,6 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
@@ -57,14 +57,18 @@
       28,
       29,
       30,
-      36,
-      37
+      32,
+      33,
+      34,
+      35,
+      36
     ],
-    "visible_layers": "003ffff_80000001"
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "nt980.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []
